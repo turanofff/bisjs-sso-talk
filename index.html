@@ -18,6 +18,7 @@
         <p>The Brisbane Javascript meetup (February 2023)</p>
     </header>
 
+    <!-- COVER SLIDE -->
     <section class="slide" id="cover">
         <h2>Implementing Single Sign On in your projects</h2>
         <p>Brought to you by <a href="https://linkedin.com/in/artem-turanov-99202620">Artem Turanov</a></p>
@@ -88,6 +89,98 @@
 
             #cover p a {
                 color: white;
+            }
+        </style>
+    </section>
+
+    <!-- INTRODUCTION SLIDE -->
+    <section class="slide">
+        <h2>Introduction</h2>
+        <div class="columns two">
+            <figure class="avatar">
+                <img class="avatar__image" src="./pictures/artem.jpg"/>
+            </figure>
+            <div>
+                <h3>Artem Turanov</h3>
+                <ul>
+                    <li>Lifelong IT professional</li>
+                    <li>Senior Frontend Engineer at Mable</li>
+                    <li>Former Database Engineer</li>
+                </ul>
+            </div>
+        </div>
+        <style>
+            .avatar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .avatar__image {
+                width: 15rem;
+                border-radius: 100%;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>
+            Purpose of this presentation
+        </h2>
+        <ol>
+            <li class="next">Explain what is Single Sign On</li>
+            <li class="next">Overview the technology stack behind the Single Sign On</li>
+            <li class="next">Tell you about the industry best practices</li>
+            <li class="next">Give you ideas to explore and try out yourself</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">What is Single Sign On?</h2>
+    </section>
+
+    <section class="slide">
+        <h2>One entry point for all applications</h2>
+        <figure>
+            <img class="figure__sso" src="./pictures/sso.png"/>
+        </figure>
+        <style>
+            .figure__sso {
+                margin-left: 5rem;
+                height: 18rem;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Basic Login Form</h2>
+        <div class="columns two">
+            <figure class="next">
+                <img class="figure__signin" src="./pictures/signin-basic.png"/>
+            </figure>
+            <div>
+                &nbsp;
+            </div>
+        </div>
+        <style>
+            .figure__signin{
+                width: 20rem;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Sign in with Google</h2>
+        <div class="columns two">
+            <figure class="next">
+                <img class="figure__signin" src="./pictures/signin-google.png"/>
+            </figure>
+            <figure class="next">
+                <img class="figure__google-experience" src="./pictures/google-account-picker.png"/>
+            </figure>
+        </div>
+        <style>
+            .figure__google-experience{
+                width: 20rem;
             }
         </style>
     </section>
